@@ -24,7 +24,7 @@ RSpec.feature "Creating exercise" do
     expect(page).to have_content("Exercise has been created")
 
     exercise = Exercise.last
-    expect(current_path).to eq(user_exercises_path(@user, exercise))
+    expect(current_path).to eq(user_exercise_path(@user, exercise))
     expect(exercise.user_id).to eq(@user.id)
   end
 
