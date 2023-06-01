@@ -1,3 +1,116 @@
 .body {
-  margin-top: 70px;
+  margin-top: 70px !important;
+}
+
+.navbar {
+  background: orange !important;
+}
+.navbar-header a.navbar-brand {
+  color: #ffffff !important;
+  padding-top: 25px !important;
+  padding-bottom: 50px !important;
+  font-size: 150% !important;
+  font-weight: bold !important;
+}
+.navbar-header a.navbar-brand:hover {
+  color: #ff0000 !important;
+}
+.nav > li > a {
+  padding-top: 25px !important;
+  padding-bottom: 30px !important;
+}
+.navbar-default .navbar-nav > .active > a {
+  background: orange !important;
+  color: #ffffff !important;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+  background: orange !important;
+  color: #ff0000 !important;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff !important;
+  font-size: 130% !important;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ff0000 !important;
+}
+
+#error_explanation {
+ background-color: #f2dede !important;
+ color: #a94442 !important;
+ text-align: left !important;
+ padding: 5px 20px !important;
+ margin-bottom: 30px !important;
+}
+#error_explanation h2 {
+ font-size: 150% !important;
+}
+.signed-in-user {
+  padding-top: 10px !important;
+  padding-right: 20px !important;
+}
+.signed-in-user .navbar-text {
+  color: #ffffff !important;
+}
+
+.link {
+  margin-bottom: 5px !important;
+}
+#back-btn {
+  margin-left: -10px !important;
+  margin-top: 30px !important;
+}
+.destroy-btn:hover {
+  color: #ff0000 !important;
+  font-weight: bold !important;
+  font-size: 120% !important;
+}
+
+path {
+  stroke: steelblue !important; stroke-width: 2 !important; fill: none !important;
+}
+.axis path, .axis line {
+    fill: none !important;
+    stroke: grey !important;
+    stroke-width: 1 !important;
+    shape-rendering: crispEdges !important;
+}
+#chat-window {
+  border: 1px solid #76C95B !important;
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
+#chat-window header {
+  background: #76C95B !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color: #fff !important;
+  font-size: 120% !important;
+}
+#chat-box {
+  min-height: 100px !important;
+}
+#message-field {
+  width: 96% !important;
+}
+.message-body {
+  margin-bottom: 2px !important;
+}
+hr.msg {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+#followers {
+  border-right: 1px solid #76C95B !important;
+}
+.followers {
+  margin-left: -15px !important;
+}
+#form-box {
+  margin-left: -15px !important;
+}
+#post-btn {
+  margin-right: -35px !important;
 }
