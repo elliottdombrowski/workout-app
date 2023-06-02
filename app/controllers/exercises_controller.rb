@@ -15,7 +15,7 @@ class ExercisesController < ApplicationController
 
     if @exercise.save
       flash[:notice] = "Exercise has been created"
-      redirect_to [current_user, @exercise]         # SHORTHAND FOR "user_exercise_path(current_user, @exercise)"
+      redirect_to [current_user, @exercise]             # SHORTHAND FOR "user_exercise_path(current_user, @exercise)"
     else
       flash[:alert] = "Exercise has not been created"
       render :new
