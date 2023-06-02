@@ -11,3 +11,19 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+// THIS IS MAKING jQuery AVAILABLE EVEN INSIDE Views FOLDER
+global.$ = require("jquery")
+
+require("jquery") // Don't really need to require this...
+require("jquery-ui")
+
+$(function(){
+    // Plain jquery
+    $('#fadeMe').fadeOut(5000);
+
+    // jquery-ui
+    const availableCities = ['Baltimore', 'New York', 'Chicago'];
+    $('#cityField').autocomplete( { source: availableCities } );
+    $('#calendarField').datepicker( { dateFormat: 'yy-mm-dd' } );
+})
